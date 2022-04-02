@@ -4,7 +4,7 @@ const inventoryCtrl = {};
 inventoryCtrl.getInventory = (request, response) => {
   let query = {};
   try {
-    inventoryModel.find(query, (error, data) => {
+    inventoryModel.find(query, { __v: false }, (error, data) => {
       if (error) {
         response.status(500).send({
           success: false,
