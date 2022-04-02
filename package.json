@@ -1,0 +1,22 @@
+{
+  "name": "mongo-crud",
+  "version": "1.0.0",
+  "description": "MongoDB CRUD Intro",
+  "main": "index.js",
+  "scripts": {
+    "watch":"nodemon app.js",
+    "local":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vickey",
+  "license": "MIT",
+  "engines": {
+    "node": "14.14.0"
+  },
+  "dependencies": {
+    "body-parser": "1.19.2",
+    "express": "4.17.3",
+    "mongoose": "6.2.9",
+    "nodemon": "2.0.15"
+  }
+}
